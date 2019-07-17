@@ -15,8 +15,23 @@
     </card>
   </div>
   <div class="col-md-12">
-    <card cardTitle='AnimationBar Chart'>
-      <div echarts [options]="AnimationBarOption" [loading]="showloading" theme="dark" class="demo-chart"></div>
+    <card cardTitle='Metric 1'>
+      <div echarts [options]="LineOption" [loading]="showloading" theme="dark" class="demo-chart"></div>
+    </card>
+  </div>
+  <div class="col-md-12">
+    <card cardTitle='Metric 2'>
+      <div echarts [options]="LineOption" [loading]="showloading" theme="dark" class="demo-chart"></div>
+    </card>
+  </div>
+  <div class="col-md-12">
+    <card cardTitle='Metric 3'>
+      <div echarts [options]="LineOption" [loading]="showloading" theme="dark" class="demo-chart"></div>
+    </card>
+  </div>
+  <div class="col-md-12">
+    <card cardTitle='Combined Metric Chart'>
+      <div echarts [options]="AnimationBarOption" [loading]="showloading" theme="light" class="demo-chart"></div>
     </card>
   </div>
 </div>

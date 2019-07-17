@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profile.component.scss']
 })
 export class ProfileComponent implements OnInit {
-  avatarImgSrc: string = 'assets/images/avatar.png';
-  userName: string = 'Folisise Chosielie';
-  userPost: string = 'Musician, Player';
+  avatarImgSrc: string = 'assets/images/BDImage.png';
+  userName: string = 'BD HAPI Device';
+  userPost: string = 'Smart - Proactive Application for Device Management';
   
   constructor() { }
 

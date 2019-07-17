@@ -26,13 +26,13 @@ export class ChartsService {
         roseType: 'angle',
         series: [
             {
-                name: 'PieChart',
+                name: 'Type of Message',
                 type: 'pie',
                 radius: [0, '50%'],
                 data: [
-                    { value: 235, name: 'Example1' },
-                    { value: 210, name: 'Example2' },
-                    { value: 162, name: 'Example3' }
+                    { value: 235, name: 'Info Logger' },
+                    { value: 210, name: 'Debug Logger' },
+                    { value: 162, name: 'Error Logger' }
                 ]
             }
         ]
